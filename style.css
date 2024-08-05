@@ -1,0 +1,263 @@
+
+
+.nbr{
+    color: #39DB4A;
+    font-size: large;
+    font-weight: 400;
+    
+}
+.nbr1{
+    color: #000;
+    font-size: large;
+    font-weight: 400;
+    
+}
+.nbr2{
+    padding-left: 16rem;
+}
+.bts1 {
+    color: white;
+    background-color:  #39DB4A;
+    border: none;
+    border-radius: 1.9rem;
+    padding-left: 1.9rem;
+    padding-right: 1.9rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    filter: drop-shadow(2px 2px 3.5px #39DB4A );
+}
+.btn.bts{
+    color: rgb(6, 6, 7);
+    background-color: white;
+    border-radius:47%;  
+    font-size: larger;
+    border: none;
+    filter: drop-shadow(2px 2px 2px #b0b0b0);
+}
+
+.heading{
+    font-size: 3.4rem;
+    font-weight: 700;
+    padding-left: 2rem;
+    padding-right: 7rem;
+}
+.heading span{
+    color: #39DB4A;
+}
+@media(max-width:765px){
+     .heading{
+         font-size: 2rem;
+        
+     }
+}
+.heading1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-left: 3rem;
+    padding-right: 9rem;
+    padding-top:2rem ;
+    padding-bottom: 1rem;
+    color: gray;
+
+}
+.ankr{
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+.heading2{
+    color: rgb(252, 79, 79);
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 900;
+    padding-top: 1.5rem;
+    letter-spacing: 0.2rem;
+    font-family: Inter;
+}
+.heading3{
+    display: flex;
+    justify-content: center;
+    font-size: 2.3rem;
+    font-weight: 700;
+    padding-top: 1.4rem;
+}
+.Card{
+    background-color:white;
+    height: 295px;
+    width: 290px;
+    border-radius: 2.1rem;
+    margin-right: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    box-shadow : 0.4px 0.5px 22px 7px #ebebeb;
+}
+.Card:hover{
+    background-color:  #ebebeb;
+    box-shadow : 0.4px 0.5px 28px 9px  #ebebeb;
+    transform: translateY(-6px);
+}
+.Card1{
+    background-color: white;
+    height: 295px;
+    width: 290px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 2.1rem;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+    box-shadow : 0.4px 0.5px 22px 5px  #ebebeb;
+    
+}
+.Card1:hover{
+    background-color:  #ebebeb;
+    box-shadow : 0.4px 0.5px 28px 9px  #ebebeb;
+    transform: translateY(-6px);
+}
+
+.text-lg{
+    font-weight: 600;
+    font-size: x-large;
+    
+}
+.space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.bts2 {
+    color: rgb(6, 6, 7);
+    background-color: white;
+    border-radius: 50%; 
+    font-size: larger;
+    border: none;
+    filter: drop-shadow(2px 2px 2px #b0b0b0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; 
+    height: 60px;
+    margin-left: 30px;
+}
+
+.bts2:hover {
+    background-color: #39DB4A;
+}
+.Card2 {
+    background-color: white;
+    height: 434px;
+    width: 365px;
+    box-shadow: 0.4px 0.5px 22px 5px #ebebeb;
+    border-radius: 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    margin-right: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s;
+}
+
+.Card2:hover {
+    
+    background-color: #ebebeb;
+    box-shadow: 0.4px 0.5px 28px 9px #ebebeb;
+    transform:scale(1.1);
+}
+
+.icon-c {
+    
+    width: 68px; /* Ensure the container takes full width */
+    margin-left: 17.8rem;
+     position: absolute; /* Optional: Add some padding to position the icon inside the card */
+}
+.space1{
+    display: flex;
+    justify-content: space-between;
+}
+.img-c { /* Ensure the container takes full width */
+    margin-left: 3.5rem;
+    margin-top: 1.6rem;
+    position: relative;/* Optional: Add some padding to position the icon inside the card */
+}
+.txt-lg{
+    color: black;
+    font-size: 1.9rem;
+    font-weight: 600;
+    padding-top: 0.6rem;
+    padding-left: 1.7rem
+}
+.txt1-lg{
+    color:rgb(90, 90, 90);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-top: 0.4rem;
+    padding-left: 1.7rem;
+}
+.text1-lg{
+    font-size: 2.7rem;
+    font-weight: 700;
+    padding-top: 1.1rem;
+    padding-bottom: 0.5rem;
+}
+.text2-lg{
+    color: rgba(87, 87, 87, 0.949);
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-top: 1.5rem ;
+    padding-bottom: 1.9rem;
+
+}
+
+.Card4 {
+    background-color: white;
+    height: 190px;
+    width: 195px;
+    box-shadow: 6px 6px 12px 2px #bababa;
+    border-radius: 1.5rem;
+    margin-left: 1.6rem;
+    margin-bottom: 1rem;
+    margin-top: 1.2rem;
+    transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    
+}
+@media(max-width:765px ){
+    .Card4{
+        background-color: white;
+        height: 192px;
+        width: 185px;
+           
+    }
+    
+}
+.text-clr{
+    color: #90BD95;
+    font-weight: 600;
+    padding-top: 0.3rem;
+    
+
+}
+.text3-lg{
+    color: rgba(87, 87, 87, 0.949);
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 0.3rem ;
+    padding-bottom: 0.2rem;
+}
