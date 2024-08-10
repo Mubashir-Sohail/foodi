@@ -177,11 +177,9 @@
     
     background-color: #ebebeb;
     box-shadow: 0.4px 0.5px 28px 9px #ebebeb;
-    transform:scale(1.1);
+    transform: scale(1.1);
 }
-
-.icon-c {
-    
+.icon-c{
     width: 68px; /* Ensure the container takes full width */
     margin-left: 17.8rem;
      position: absolute; /* Optional: Add some padding to position the icon inside the card */
